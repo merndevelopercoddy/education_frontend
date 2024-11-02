@@ -1,0 +1,256 @@
+body{
+    background-color:#26335D;
+}
+#header{
+    background-image: url('rasmlar/background_sec.png');
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#header .navbar a{
+    color:white;
+}
+.header1 div{
+    margin: 70px 0;
+}
+.fon{
+    background-color: #8D5CF6;
+}
+#header button{
+    color:white;
+}
+#header button:hover{
+    border:1px solid white;
+}
+#header button i{
+    font-size: 12px;
+}
+#header ul li a:hover{
+    text-decoration: underline;
+}
+.ramka{
+    border:1px solid white;
+}
+#header .ramka:hover{
+    border:1px solid #8D5CF6;
+    background-color:#8D5CF6;
+}
+.column3 .chiziq{
+    width: 50px;
+    height: 2px;
+    background-color:#E74040;
+}
+.column3 .card{
+    background-color:white;
+}
+.column3 div i{
+    font-size: 72px;
+}
+/* Experts Start */
+.experts .row .col-lg-5{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.experts .row .col-lg-5 div{
+    width: 80%;
+    color:white;
+}
+.experts a , .packages a{
+    color:#8D5CF6;
+    text-decoration: none;
+}
+.experts a:hover , .packages a:hover{
+    color:white;
+}
+.experts .row{
+    margin:80px 0;
+}
+/* Experts End */
+/* Packages Start */
+.packages .liniya{
+    width:100px;
+    height:5px;
+    background-color: #E74040;
+}
+.packages{
+    color:white;
+}
+.packages .video{
+    background-image:url("rasmlar/fon-tugma.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+}
+.packages .video img{
+    margin:150px 0;
+}
+.packages .video:hover img{
+    box-shadow: 0 0 5px black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+/* End */
+/* Popular Courses Start */
+.popular a{
+    color:#8D5CF6;
+    text-decoration: none;
+}
+.popular a:hover{
+    color:white;
+}
+.popular{
+    color:white;
+}
+.popular .card{
+    border-radius:0;
+}
+.rasm{
+    position: relative;
+}
+.rasm button{
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius:5px;
+    background-color:#E74040;
+    box-shadow:0px 0px 1px black;
+    border:none;
+    padding:5px 15px;
+    margin:15px 10px;
+}
+.rasm .tugmalar{
+    position: absolute;
+    bottom:30px;
+    width: 50%;
+    left:25%;
+}
+.tugmalar i{
+    font-size: 20px;
+    background-color:white;
+    border-radius:50%;
+    padding: 10px;
+    margin:5px;
+}
+.tugmalar i:hover{
+    cursor: pointer;
+}
+.popular .card-body .col-lg-4 i{
+    color:#FFCE31;
+    padding-right: 5px;
+}
+.popular .card-body .col-lg-4 span{
+    background-color:#26335D;
+    padding:5px 10px;
+    border-radius:20px;
+    color:white;
+}
+.popular .card-body .col-lg-8 a{
+    font-weight: bold;
+}
+.popular .card-body .col-lg-8 a:hover{
+    color:black;
+}
+.batafsil{
+    border:1px solid #8D5CF6;
+    border-radius:20px;
+    width: 140px;
+    padding:7px 12px;
+    text-align: center;
+}
+.popular .batafsil:hover{
+    color:#8B2FAF;
+    border:1px solid #8B2FAF;
+}
+/* Popular Courses End */
+/* Mentor Start */
+.mentor a{
+    color:#8D5CF6;
+    text-decoration: none;
+}
+.mentor .q1{
+    color:white;
+}
+.mentor .q1 a:hover{
+    color:white;
+}
+.mentor .q2 div{
+    background-color:white;
+    text-align: center;
+}
+.mentor .q2 span i{
+    color:#FFCE31;
+    font-size: 20px;
+}
+.mentor .q2 h6{
+    color:#8D5CF6;
+}
+.mentor{
+    margin-top: 100px;
+}
+/* Mentor End */
+/* NewsLetter Start */
+.newsletter a{
+    color:#8D5CF6;
+    text-decoration: none;
+    font-size: 18px;
+}
+.newsletter a:hover{
+    color:white;
+    cursor: pointer;
+}
+.newsletter button{
+    background-color:#8D5CF6;
+}
+/* NewsLetter End */
+/* Footer Start */
+.footer1 p a{
+    color:white;
+    text-decoration: none;
+}
+.footer1 p{
+    line-height: 1;
+}
+.footer1 p a:hover{
+    color:#8D5CF6;
+}
+.footer2{
+    background-color:white;
+}
+.footer2 a i{
+    color:#8D5CF6;
+    margin:10px;
+    font-size: 20px;
+}
+/* Footer End */
+/* Responsive Start */
+/* Mobile Version*/
+@media only screen and (max-width:600px){
+   
+.navbar #menyu #navbarSupportedContent{
+    background-color:white;
+    width: 100%;
+    position: absolute;
+    top:60px;
+    left:0px;
+}
+#menyu .navbar-nav li a , #menyu form button{
+    color:#8D5CF6;
+}
+#menyu .fon{
+    color:white;
+    margin-bottom: 10px;
+}
+#menyu form , #menyu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer2 .text-secondary{
+    width: 50%;
+}
+
+
+}
+/* Responsive End */
